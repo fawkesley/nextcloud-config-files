@@ -1,0 +1,11 @@
+server {
+  listen 80;
+
+  location /.well-known/acme-challenge/ {
+    # For the letsencrypt "webroot" plugin
+    # http://letsencrypt.readthedocs.org/en/latest/using.html#webroot
+    
+    root /etc/letsencrypt/fake-webroot;
+  }
+}
+
