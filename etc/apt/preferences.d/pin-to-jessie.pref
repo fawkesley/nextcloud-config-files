@@ -1,0 +1,5 @@
+# /etc/apt/preferences.d/pin-to-jessie.pref
+
+Package: *
+Pin: release n=jessie
+Pin-Priority: 600
