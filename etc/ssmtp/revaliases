@@ -1,9 +1,12 @@
 # sSMTP aliases
 #
+# Create *outgoing* mail aliases for local users on the machine, for example make
+# emails from `root` look like they come from `root@box1.example.com`
+#
 # Format:   local_account:outgoing_address:mailhub
 #
 # Example: root:your_login@your.domain:mailhub.your.domain[:port]
 # where [:port] is an optional port number that defaults to 25.
 
-root:postmaster@cloud.paulfurley.com:smtp.mailgun.org:587
+root:pi-loft-2-root@cloud.paulfurley.com:smtp.mailgun.org:587
 
